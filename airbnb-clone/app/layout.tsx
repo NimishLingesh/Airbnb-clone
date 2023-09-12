@@ -3,7 +3,7 @@ import './globals.css'
 import { Nunito } from "next/font/google";
 import Navbar from './components/navbar/navbar';
  
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Airbnb',
   description: 'Airbnb Clone',
 }
