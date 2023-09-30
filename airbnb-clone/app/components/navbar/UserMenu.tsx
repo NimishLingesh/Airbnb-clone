@@ -66,7 +66,8 @@ const UserMenu= () => {
                 w-[40vw]
                 md:w-3/4
                 bg-white
-                overflow-hiddenright-0
+                overflow-hidden
+                right-0
                 top-12
                 text-sm"
                 >
@@ -75,6 +76,10 @@ const UserMenu= () => {
                         <MenuItem 
                             onClick={()=>{}} 
                             label="Login"
+                        />
+                        <MenuItem 
+                            onClick={()=>{}} 
+                            label="Sign up"
                         />
                         </>
                     </div>
