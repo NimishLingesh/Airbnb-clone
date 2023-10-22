@@ -7,6 +7,7 @@ import { PrismaAdapter } from "@next-auth/prisma-adapter"
 
 import prisma from "@/app/libs/prismadb"
 
+// authOptions is an object created from the interface if AuthOptions 
 export const authOptions: AuthOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
@@ -62,4 +63,6 @@ export const authOptions: AuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
 }
 
+// Exporting the instance of the NextAuth while passing the configured object
+// of authOptions
 export default NextAuth(authOptions);
