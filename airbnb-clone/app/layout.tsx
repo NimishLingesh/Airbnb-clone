@@ -8,7 +8,7 @@ import Navbar from './components/navbar/Navbar';
 import ClientOnly from './components/ClientOnly';
 import ToasterProvider from './providers/ToasterProvider';
 
-import getCurrentUser from './actions/getCurrentUser';
+import getCurrentUser from './actions/getCurrentUSer';
 
 export const metadata = {
   title: 'Airbnb',

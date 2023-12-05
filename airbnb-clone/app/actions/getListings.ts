@@ -84,6 +84,10 @@ export default async function getListings(
       }
     });
 
+    // convert everything to string, otherwise there will be warning at the client end
+    // this si because this componenet(server) is imported at the client end
+    // especially date format datatype
+    // declaring the datatype here -> airbnb-clone\app\types\index.ts
     const safeListings = listings.map((listing) => ({
       ...listing,
       createdAt: listing.createdAt.toISOString(),
