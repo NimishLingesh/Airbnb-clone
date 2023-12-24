@@ -8,6 +8,8 @@
 //   //   </div>
 //   // )
 // }
+export const dynamic = 'force-dynamic';
+// 'auto' | 'force-dynamic' | 'error' | 'force-static'
 
 import Container from "@/app/components/Container";
 import ListingCard from "@/app/components/listings/ListingCard";

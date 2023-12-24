@@ -16,7 +16,7 @@ import { useForm, FieldValues, SubmitHandler } from "react-hook-form";
 import CountrySelect from "../inputs/CountrySelect";
 import Counter from "../inputs/Counter";
 import ImageUpload from "../inputs/ImageUpload";
-import Input from "../inputs/input";
+import Input from "../inputs/Input";
 
 enum STEPS {
   CATEGORY = 0,
